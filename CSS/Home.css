@@ -10,8 +10,8 @@
     color: white;
 }
 .download_RL_bot a{
-    display: block;
     margin-left: 46%;
+    display: block;
     border: 3px solid #242424;
 }
 
@@ -51,7 +51,6 @@
     font-size: 25px;
     line-height: 1.5;
     font-family: Sans-serif;
-    line-height: 1.5;
     width: 40%;
 }
 
@@ -63,14 +62,81 @@
     top: -90px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 1200px) {
     .Info p{
-        position: relative;
-        left: 5%; 
-        color: white;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
         font-size: 15px;
-        line-height: 1.5;
-        font-family: Sans-serif;
-        width: 40%;
+    }
+
+    .download_RL_bot a:link{
+        padding: 12px 23px;
+        font-size: 15px;
+    }
+
+    .Info-title{
+        font-size: 15px;
+    }
+    .Info p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 495px) {
+    .title {
+        font-size: 13px;
+    }
+
+    .download_RL_bot a:link{
+        padding: 10px 21px;
+        font-size: 13px;
+    }
+
+    .Info-title{
+        font-size: 13px;
+    }
+    .Info p{
+        font-size: 13px;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+    .title {
+        font-size: 10px;
+    }
+
+    .download_RL_bot a:link{
+        padding: 10px 21px;
+        font-size: 13px;
+    }
+
+    .Info-title{
+        font-size: 10px;
+    }
+    .Info p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .title {
+        font-size: 8px;
+    }
+
+    .download_RL_bot a:link{
+        padding: 10px 21px;
+        font-size: 11px;
+    }
+
+    .Info-title{
+        font-size: 8px;
+    }
+    .Info p{
+        font-size: 10px;
     }
 }
