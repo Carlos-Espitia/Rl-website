@@ -62,3 +62,15 @@
     left: 24%; 
     top: -90px;
 }
+
+@media only screen and (min-width: 768px) {
+    .Info p{
+        position: relative;
+        left: 5%; 
+        color: white;
+        font-size: 15px;
+        line-height: 1.5;
+        font-family: Sans-serif;
+        width: 40%;
+    }
+}
